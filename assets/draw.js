@@ -1,5 +1,6 @@
 function setup(){
-    createCanvas(800,400);
+    let canvas = createCanvas(windowWidth,windowHeight);
+    canvas.parent('p5Canvas');
     noStroke();
     colorMode(HSB);
 }
